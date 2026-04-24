@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> To-Do App</title>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+<div class="container">
+
+  
+  <div class="logo">
+    <img src="dow.png" alt="Logo">
+  </div>
+
+  <h1>  To-Do App</h1>
+
+  <div class="input-area">
+    <input type="text" id="taskInput" placeholder="Add task...">
+    <button onclick="addTask()">Add</button>
+  </div>
+
+  <ul id="taskList"></ul>
+
+  <div class="footer">
+    <span id="counter">0 tasks</span>
+    <button class="clear" onclick="clearAll()">Clear</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
